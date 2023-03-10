@@ -1,6 +1,5 @@
 # Projeto Full-Stack Básico com MySQL, NodeJS, HTML/CSS/JS
 <i>Projeto Sucão da Massa <b>SENAI 2023</b></i>
-<hr>
 <h2><i>Para testar</i></h2>
 <ul>
   <li>Clone o repositório</li>
