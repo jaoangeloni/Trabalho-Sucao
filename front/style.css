@@ -9,11 +9,10 @@ html {
     scroll-snap-type: x mandatory;
 }
 body{
-    width: 200vw;
     display: flex;
-    /* overflow: scroll; */
     scroll-snap-type: x mandatory;
     overflow-y: hidden;
+    background: linear-gradient(to bottom, white, #fff3ae9a);
 }
 #main{
     display: flex;
@@ -47,6 +46,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding:50px 100px;
+    
 }
 #menu{
     display: flex;
@@ -70,6 +70,7 @@ header{
     font-size: 5rem;
     font-weight: 700;
     color: #ff5500;
+    font-style: italic;
 }
 #hello_description{
     font-size: 1.5rem;
@@ -146,10 +147,10 @@ a:hover{
     color: black;
 }
 table{
-    padding: 20px;
     border-spacing: 10px;
-    /* border-left: 2px solid black;
-    border-right: 2px solid black; */
+    padding: 70px;
+    border-top:3px solid #ff4d00;
+    border-bottom:4px solid #ff4d00;
 }
 tr{
     background-color: white;
@@ -167,7 +168,7 @@ th{
 td{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 3px 10px;
+    padding: 0px 10px;
     border: 3px solid #ff9100;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -222,7 +223,7 @@ form{
     cursor: pointer;
     border: none;
 }
-#butao:hover{
+#butao:hover, #learn_more:hover, #call:hover{
     background-color: #ff0000;
 }
 
@@ -249,4 +250,24 @@ form{
     cursor: pointer;
     font-size: 1.5rem;
 
+}
+::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+  }
+#next_page{
+    padding: 50px;
+    font-size: 4rem;
+    color: #ff9100;
+    font-weight: bold;
+    text-shadow: 0px 0.4rem 0 #ff4d00;
+    font-style: italic;
 }
