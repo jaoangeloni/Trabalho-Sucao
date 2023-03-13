@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucão Da Massa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <main>
+        <section id="welcome">
+            <div class="welcome">
+                <div id="first">
+                    <p id="logo">Sucão da Massa</p>
+                    <p class="info">A loja número 1 de Belford Roxo!</p>
+                    <!-- <p id="end">Rua das ruas, 61, Bairro dos bairros.</p> -->
+                </div>
+            </div>
+            <div id="img">
+                <img src="https://amdib.com.br/wp-content/uploads/2021/06/1.png" alt="">
+            </div>
+        </section>
+        <section id="produto">
+            <div>
+                <p>Cadastro de Produto</p>
+                <form id="cadastro">
+                    <!-- <input type="text" name="id" id="id" placeholder="Id (Opcional)"> -->
+                    <input type="text" name="nome" id="nome" placeholder="Sabor" required>
+                    <input type="text" name="descricao" id="descricao" placeholder="Descrição">
+                    <input type="number" step="any" name="valor" id="valor" placeholder="Valor" required >
+                    <input type="submit" value="Cadastrar" id="butao">
+                </form>
+            </div>
+        </section>
+        <section id="menu">
+            <div>
+                <p>Menu</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nome</th>
+                            <th>Descrição</th>
+                            <th>Valor</th>
+                            <th>Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

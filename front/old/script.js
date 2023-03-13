@@ -27,10 +27,7 @@ cadastro.addEventListener('submit', e => {
     fetch(uri + '/criar', options)
         .then(resp => resp.status)
         .then(resp => {
-            if (resp == 201){
-                window.location.href = "#teste"
-                window.location.reload();
-            }
+            if (resp == 201) window.location.reload()
             else alert('Erro ao enviar dados')
         })
 })
