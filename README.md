@@ -1,5 +1,5 @@
 # Projeto Full-Stack Básico com MySQL, NodeJS, HTML/CSS/JS e simulador de comércio
-<h2><i>Requisitos</i></h2>
+<h2><i>Requisitos para testar</i></h2>
 <ul>
     <li>NodeJS</li>
     <li>MySQL</li>
